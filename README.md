@@ -42,6 +42,6 @@ Este es un proyecto desarrollado con **React** que permite explorar personajes d
 
 ![Favoritos](./public/images/favoritos.png)
 
-### Busqueda
+### Búsqueda
 
 ![Buscador](./public/images/busqueda.png)
