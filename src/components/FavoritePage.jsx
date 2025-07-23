@@ -10,7 +10,7 @@ const FavoritePage = () => {
             <h2 className="text-center">Personajes Favoritos</h2>
             <div className="d-flex flex-wrap gap-3 p-1 p-xl-5 justify-content-center">
                 {
-                    favorites != [] ? 
+                    favorites.length != 0 ? 
                     favorites.map(item => <CharacterCard key={item.id} character={ item } />)
                     : <h3>No hay Favoritos</h3>
                 }
